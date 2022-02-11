@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  padding: 0 2rem;
+  justify-content: center;
+  background-color: #666;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  display: block;
+  padding: 2rem;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #ccc;
+}
